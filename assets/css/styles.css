@@ -1,0 +1,47 @@
+/* etiqueta html va directamente el nombre */
+/* CLASES VA CON "." ADELANTE */
+/* ID VA CON "#" ADELANTE */
+
+/* css lee de abajo para arriba */
+/* "ctrl + f" para buscar algo */
+/* "ctrl + espacio" para buscar atributos */
+
+body{
+    background-color: rgb(26, 192, 214); /*  backround es atributo rgb es el atributo */
+    color:black; /*color de fuente*/
+}
+
+#redes{
+    text-align: center;
+    margin: auto;
+}
+
+ul li{   /*buscamos donde estan las redes y quitamos los puntito*/
+    list-style-type: none;
+    margin-left: -3.5%;
+}
+
+.imgPerfil{
+    border-radius: 100%;
+    border-style: /*para el tamaño de borde*/
+}
+
+.nombrePerfil{
+    font-size: 5rem;    /*rem:unidad relativa con respecto a la pagina em:con respecto al diseño*/
+    border-style: solid;
+}
+
+.moverimagen{
+    justify-content: center;
+    display: flex;
+    border-style: solid;
+}
+
+.apellido{
+    color: black;
+}
+
+.mapita{
+    padding: 5%;  /*relleno. negativo no se puede*/
+    border: 1rem solid black;
+}
