@@ -1,3 +1,13 @@
+editor.linkedEditing<!--active esta opcion en configuarion-->
+
+git init  iniciar un directorio como repositorio git
+git add .  pasar del working area al stating area
+git status en que estados estan los archivos
+git commit -m "comentario"  confirma todos los cambios registrados en en area de preparacion, se pasan los cambios al rep.local
+git push enviar todo del rep local al rep remoto
+git log para revisar el historial del repositorio
+
+
 # PortfolioFrontEnd
 Estados de los archivos
 U: (UNTRACKET FILES) git sabe que hay un archivo ahi pero todavia no tiene registro de el
@@ -8,8 +18,12 @@ git push -u origin :para subir
 /* "ctrl + f" para buscar algo */
 /* "ctrl + espacio" para buscar atributos */
 ctrl + ñ   para abrir una terminal
+ctrl + d   para seleccionar un grupo de algo
+bloq mayusc + alt + flecha  para duplicar algo varias veces
+alt + flecha   para mover algo esa linea
 
 
+<!--mt margintop:margen superior, pb paddingbottom:relleno margen inferior-->
 
 <section> <!--section es una etiqueta de seccion, sirve para dividir las partes de la pantalla-->
 <div> es para hacer divisiones dentro de las seccion 
@@ -40,11 +54,17 @@ ctrl + alt + flechita selecciona varias cosas a la vez
 
 lorem =cuando no tenemos nada que escribir completa con texto
 
+ target="_blank" abrir en nueva pestaña
+ target="-parent" abrirse en la misma pagina
+
 
 
 
 
 CSS:selectores
+reglas/estructura para declarar css
+<!-- h1    {  color   :   black; } 
+selector  propiedad     valor -->
 
 * :selector universal <!-- para seleccionar todo los elementos de la pagina -->
 ej: * {margin: 0; padding 0;}
@@ -60,9 +80,17 @@ selector de clase:para aplicar estilos a un solo elemento (muchos elementos html
 selector de id:para aplicar estilos a un solo elemento (no se puede repetir en dos elementos diferentes)
 id="atributo" <!--selector id, en la hoja de estilos como--> #atributo
 
+margging margen
+padding relleno
+
+<BASEFONT SIZE=valor> cambiar tamaño de fuente
+
+
 
 codigos boostrap:
-nabvar: barra de navegacion, buscar los codigos en boostrap
+
+<!--  TODOS LOS ELEMENTOS DEBEN ESTAR CONTENIDOS EN CONTENEDORES: .container/.container-fluids -->
+nabvar: barra de navegacion tareas, buscar los codigos en boostrap
 button: boton
 <modal>: Ventana modal o cuadro de diálogo. 
 complemento de js de boostrap para lightboxes, notificaciones de usuario o contenido completamente personalizado.
